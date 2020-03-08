@@ -1,4 +1,4 @@
-**Comandos para o git***
+**Comandos para o git**
 
 `git init` // inicia a linha do tempo / Iniciar um repositório
 na pasta que será o novo repositório Git.
@@ -44,8 +44,10 @@ Para que isso não aconteça, existem comandos do Git que salvam nossas vidas, o
 `git diff` // Será retornado uma lista de itens que foram alterados
 `git remote -v` // Listando o caminho do servidor / Para sabermos para onde estão sendo enviadas nossas alterações ou de onde estamos baixando as coisas.
 `git clone` // clonar um projeto / repositório / Para baixar um repositório do GitHub, Bitbucket, GitLab ou qualquer que seja o servidor do nosso projeto, devemos rodar o comando git clone com o link do repositório.
+
 `git pull` // puxa do repositório remoto / Baixar as últimas alterações do servidor
 Quando algo estiver diferente no nosso repositório remoto (no servidor), podemos baixar para a nossa máquina com o comando pull.
+
 `git remote set-url origin + link` // Adicionando o caminho do servidor,
 Caso tenhamos criado o repositório localmente antes de criar no servidor, podemos adicionar o caminho com o comando set-url.
 `git remote set-url origin + link` // Para alterar o servidor onde hospedamos nosso repositório, usamos o mesmo comando set-url.
